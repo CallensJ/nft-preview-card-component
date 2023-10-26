@@ -8,4 +8,89 @@
 html {
   font-size: 62.5%;
   font-family: "Outfit", sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(217, 54%, 11%);
+}
+
+.container {
+  width: 375px;
+  background-color: hsl(216, 50%, 16%);
+  padding: 2.4rem;
+  border-radius: 1rem;
+}
+.container .wrapper .illustration {
+  margin-bottom: 3rem;
+}
+.container .wrapper .illustration .product-image {
+  width: 100%;
+  border-radius: 1rem;
+}
+.container .wrapper .product-title {
+  color: hsl(0, 0%, 100%);
+  font-size: 2.2rem;
+}
+.container .wrapper .description {
+  color: hsl(215, 51%, 70%);
+  font-weight: 300;
+  font-size: 1.8rem;
+  margin-top: 2rem;
+  line-height: 2.8rem;
+}
+.container .wrapper .prices {
+  margin-top: 2.6rem;
+  display: flex;
+  justify-content: space-between;
+}
+.container .wrapper .prices .price-bloc {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 9rem;
+}
+.container .wrapper .prices .price-bloc .price {
+  color: hsl(178, 100%, 50%);
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+.container .wrapper .prices .time-bloc {
+  display: flex;
+  width: 9rem;
+  align-items: center;
+  justify-content: space-between;
+}
+.container .wrapper .prices .time-bloc .time {
+  color: hsl(215, 51%, 70%);
+  font-size: 1.4rem;
+}
+.container .wrapper .avatar-box {
+  display: flex;
+  align-items: center;
+}
+.container .wrapper .avatar-box .avatar-image {
+  width: 3rem;
+  height: 3rem;
+  padding: 0.2rem;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  margin-right: 1.7rem;
+}
+.container .wrapper .avatar-box .author {
+  color: hsl(215, 51%, 70%);
+  font-size: 1.4rem;
+}
+.container .wrapper .avatar-box .author span {
+  color: hsl(0, 0%, 100%);
+}
+.container .wrapper .border {
+  display: block;
+  width: 100%;
+  margin-top: 1.6rem;
+  margin-bottom: 1.6rem;
+  border: 1px solid hsl(215, 32%, 27%);
 }/*# sourceMappingURL=styles.css.map */
