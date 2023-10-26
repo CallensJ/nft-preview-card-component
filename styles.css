@@ -26,10 +26,28 @@ body {
 }
 .container .wrapper .illustration {
   margin-bottom: 3rem;
+  position: relative;
+  cursor: pointer;
 }
 .container .wrapper .illustration .product-image {
   width: 100%;
   border-radius: 1rem;
+}
+.container .wrapper .illustration .overlay {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsla(178, 100%, 50%, 0.548);
+  border-radius: 1rem;
+}
+.container .wrapper .illustration .overlay:hover {
+  opacity: 1;
+  transition: 0.3s;
 }
 .container .wrapper .product-title {
   color: hsl(0, 0%, 100%);
@@ -86,6 +104,10 @@ body {
 }
 .container .wrapper .avatar-box .author span {
   color: hsl(0, 0%, 100%);
+  cursor: pointer;
+}
+.container .wrapper .avatar-box .author span:hover {
+  color: hsl(178, 100%, 50%);
 }
 .container .wrapper .border {
   display: block;
@@ -93,4 +115,8 @@ body {
   margin-top: 1.6rem;
   margin-bottom: 1.6rem;
   border: 1px solid hsl(215, 32%, 27%);
+}
+.container .product-title:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
 }/*# sourceMappingURL=styles.css.map */
